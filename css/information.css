@@ -1,0 +1,33 @@
+body {
+	font-family: "Sofia", sans-serif;
+	text-align: center;
+}
+
+ul {
+	list-style-type: none;
+	margin: auto;
+	padding: 0;
+	overflow: hidden;
+	background-color: black;
+	width: 20%;
+}
+
+li {
+	float: center;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #111;
+}
+
+.topofi {
+	font-size: 40px;
+}

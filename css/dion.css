@@ -1,0 +1,85 @@
+body {
+	background-image: url("pictures/philippines.jpg");
+	/* https://www.state.gov/countries-areas/philippines/ */ 
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	font-family: "Sofia", sans-serif;
+	background-color: white;
+}
+.topofd {
+	width: 100%;
+    margin: 0px;
+    padding: 0px;
+	text-align: center;
+	height: 100px;
+	font-size: 60px;
+}
+
+.middleofd {
+	width: 100%;
+	margin: 5px;
+    padding:0px;
+	text-align: center;
+	height: 300px;
+}
+
+ul {
+	list-style-type: none;
+	margin: auto;
+	padding: 0;
+	overflow: hidden;
+	background-color: black;
+	width: 20%;
+}
+
+li {
+	float: center;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #111;
+}
+
+.desfood {
+	text-align: center;
+	color: white;
+}
+
+.foodpic {
+	width: 40%;
+	float: left;
+}
+
+.linktofood {
+	overflow: hidden;
+	background-color: black;
+	width: 60%;
+	float: right;
+	margin: auto;
+	opacity: .80;
+}
+
+.foodhistory {
+	color: white;
+	width: 60%;
+	float: right;
+	background-color: black;
+	opacity: .80;
+}
+
+footer {
+	width: 100%;
+	float: bottom;
+	padding: 14px 16px;
+	color: black;
+	font-size: 40px;
+}

@@ -1,0 +1,86 @@
+body {
+	background-image: url("pictures/food.png");
+	/* https://www.washingtonpost.com/health/food-for-thought--and-health-the-right-diet-for-patients-can-improve-outcomes-and-reduce-costs/2020/02/14/015b22aa-4825-11ea-bc78-8a18f7afcee7_story.html */
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	font-family: "Sofia", sans-serif;
+}
+.top {
+	width: 100%;
+    border:1px solid;
+    border-color:black;
+    margin: 5px;
+    padding: 0px;
+	text-align: center;
+	height: 300px;
+	background-color: white;
+	opacity: 0.80;
+	font-size: 60px;
+}
+.top:hover {
+	opacity: .90;
+}
+
+.middle {
+	width: 100%;
+    border:1px solid;
+    border-color:black;
+	margin: 5px;
+    padding:0px;
+	text-align: center;
+	height: 300px;
+	background-color: white;
+	opacity: 0.80;
+}
+.middle:hover {
+	opacity: .90;
+}
+
+ul {
+	list-style-type: none;
+	margin: auto;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	width: 20%;
+}
+
+li {
+	float: center;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #111;
+}
+
+.bottom {
+	width: 100%;
+    border:1px solid;
+    border-color:black;
+	margin: 5px;
+    padding:0px;
+	text-align: center;
+	height: 300px;
+	background-color: white;
+	opacity: 0.80;
+}
+
+.bottom:hover {
+	opacity: 1;
+	background-image:url("pictures/Porkchi.png");
+	/* Panlasangpinoy.com for image */
+	background-repeat: no-repeat;
+	background-position: center;
+	outline-offset: 15px;
+	width: 40%;
+	margin: auto;
+}
